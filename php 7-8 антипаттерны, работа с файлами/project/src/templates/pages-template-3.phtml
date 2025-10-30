@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+    <title>Задание 3</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<section>
+    <div class="container">
+        <header>
+            <?php include __DIR__ . '/components/menu.phtml'; ?>
+        </header>
+        <p>
+            Используя mt_rand, сгенерируйте массив размером 100 элементов так,
+            чтобы все элементы были в диапазоне от 1 до 200 УНИКАЛЬНЫЕ
+        </p>
+        <ul>
+            <li>
+                Используйте цикл.
+            </li>
+            <li>
+                Используйте только функции работы с массивами*
+            </li>
+        </ul>
+        <pre>
+            $array = [];
+            for ($i = 0; $i < 100;) {
+                $res = mt_rand(1, 200);
+
+                if (!in_array($res, $array)) {
+                    array_push($array, $res);
+                    $i++;
+                }
+            }
+            print_r($array);
+
+            /**
+             * 2 Вариант
+             */
+
+            while (count($array) < 100) {
+                $res = mt_rand(1, 200);
+                if (!in_array($res, $array)) {
+                    array_push($array, $res);
+                }
+            }
+
+            print_r($array);
+        </pre>
+    </div>
+</section>
+</body>
+</html>
