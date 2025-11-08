@@ -1,0 +1,14 @@
+<form method="POST">
+    <input type="number" name="a" value="<?= $a ?? '' ?>">
+    <select name="operation">
+        <option value="increment" <?= $operation ?>> +</option>
+        <option value="decrement" <?= $operation ?>>-</option>
+        <option value="multiply" <?= $operation ?>>*</option>
+        <option value="divide" <?= $operation ?>>/</option>
+    </select>
+    <input type="number" name="b" value="<?= $b ?? '' ?>">
+    <button type="submit">=</button>
+    <input readonly type="text" value="<?= $result ?>"/>
+</form>
+
+
