@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Блог</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<?php include __DIR__ . '/../parts/menu.phtml'; ?>
+<h2>Категории</h2>
+
+<?php foreach ($arrayCategories as $category): ?>
+    <nav>
+        <a href="?page=category&id=<?= $category['id'] ?>"><?= $category['name'] ?></a>
+
+    </nav>
+<?php endforeach; ?>
+</body>
+</html>

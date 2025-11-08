@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Блог</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<?php include __DIR__ . '/../parts/menu.phtml'; ?>
+<h2>Посты</h2>
+
+<?php foreach ($posts as $post): ?>
+    <div>
+        <h3><?= $post['title']?></h3>
+        <p><?= $post['text'] ?></p>
+    </div>
+<?php endforeach; ?>
+</body>
+</html>
