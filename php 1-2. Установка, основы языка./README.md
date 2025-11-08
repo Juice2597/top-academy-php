@@ -1,4 +1,3 @@
-/*
  * Задание:
  * 1 установить php -v (прислать скриншот с результатом команды)
  * 2 Написать скрипт обмена переменными x <-> y (прислать файл index.php)
@@ -11,4 +10,4 @@
  * Установка Wsl https://learn.microsoft.com/en-us/windows/wsl/install
  * Настройка Wsl https://docs.docker.com/desktop/features/wsl/
  * Докер https://www.docker.com/products/docker-desktop/
- */
+
