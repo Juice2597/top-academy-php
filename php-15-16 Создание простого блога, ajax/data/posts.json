@@ -1,0 +1,30 @@
+{
+    "3": {
+        "id": 3,
+        "category_id": 2,
+        "title": "Пост 3333",
+        "text": "Текст поста 3 о спорте333",
+        "likes": 11
+    },
+    "4": {
+        "id": 4,
+        "category_id": 1,
+        "title": "11",
+        "text": "22",
+        "likes": 1
+    },
+    "5": {
+        "id": 5,
+        "category_id": 2,
+        "title": "33",
+        "text": "44",
+        "likes": 2
+    },
+    "6": {
+        "id": 6,
+        "category_id": 2,
+        "title": "22",
+        "text": "33",
+        "likes": 1
+    }
+}

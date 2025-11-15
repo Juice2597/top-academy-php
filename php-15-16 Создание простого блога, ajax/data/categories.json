@@ -1,0 +1,17 @@
+{
+    "1": {
+        "id": 1,
+        "name": "Политика",
+        "slug": "politic"
+    },
+    "2": {
+        "id": 2,
+        "name": "Спорт",
+        "slug": "sport"
+    },
+    "3": {
+        "id": 3,
+        "name": "Demo",
+        "slug": "demo"
+    }
+}
