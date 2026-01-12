@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "./"
+        }
+    },
+  "require": {
+    "ext-pdo": "*"
+  },
+    "require-dev": {
+        "symfony/var-dumper": "^8.0"
+    }
+}
